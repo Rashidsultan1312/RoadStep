@@ -246,7 +246,7 @@ struct ProfileView: View {
     }
 
     private var privacyPolicyView: some View {
-        WebGateView(url: URL(string: "https://example.com/privacy")!)
+        WebGateView(url: URL(string: "https://mbr.baby/privacy")!)
             .ignoresSafeArea()
             .navigationTitle("Privacy Policy")
             .navigationBarTitleDisplayMode(.inline)
