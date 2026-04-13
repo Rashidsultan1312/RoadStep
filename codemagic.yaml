@@ -11,12 +11,12 @@ workflows:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.savealon.goldbetony
+        bundle_identifier: com.mbr.baby.roadstep
       vars:
-        BUNDLE_ID: "com.savealon.goldbetony"
+        BUNDLE_ID: "com.mbr.baby.roadstep"
         XCODE_PROJECT: "CrossChick.xcodeproj"
         XCODE_SCHEME: "CrossChick"
-        APP_STORE_APPLE_ID: "6761757602"
+        APP_STORE_APPLE_ID: "6762131964"
 
     scripts:
       - name: Set up code signing
