@@ -192,10 +192,10 @@ struct ProfileView: View {
             profileRow(icon: "info.circle.fill", title: "Version", value: appVersion)
 
             Button {
-                guard let url = URL(string: "mailto:mykser9204@icloud.com") else { return }
+                guard let url = URL(string: "mailto:dorohneo74@icloud.com") else { return }
                 UIApplication.shared.open(url)
             } label: {
-                profileRowContent(icon: "envelope.fill", title: "Support", value: "mykser9204@icloud.com")
+                profileRowContent(icon: "envelope.fill", title: "Support", value: "dorohneo74@icloud.com")
             }
 
             NavigationLink {
