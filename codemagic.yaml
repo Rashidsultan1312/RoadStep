@@ -7,8 +7,8 @@ workflows:
     environment:
       xcode: latest
       vars:
-        XCODE_PROJECT: "LastTime.xcodeproj"
-        XCODE_SCHEME: "LastTime"
+        XCODE_PROJECT: "CrossChick.xcodeproj"
+        XCODE_SCHEME: "CrossChick"
 
     scripts:
       - name: Show Xcode project info
