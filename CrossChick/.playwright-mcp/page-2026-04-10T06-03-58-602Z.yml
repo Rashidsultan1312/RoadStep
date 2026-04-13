@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - heading "RoadStep — выбери иконку" [level=2] [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: t1
+      - generic [ref=e6]:
+        - img [ref=e7]
+        - img [ref=e8]
+        - img [ref=e9]
+      - generic [ref=e10]: 180 / 100 / 60
+    - generic [ref=e11]:
+      - generic [ref=e12]: t2
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - img [ref=e15]
+        - img [ref=e16]
+      - generic [ref=e17]: 180 / 100 / 60
+    - generic [ref=e18]:
+      - generic [ref=e19]: t3
+      - generic [ref=e20]:
+        - img [ref=e21]
+        - img [ref=e22]
+        - img [ref=e23]
+      - generic [ref=e24]: 180 / 100 / 60
+    - generic [ref=e25]:
+      - generic [ref=e26]: t4
+      - generic [ref=e27]:
+        - img [ref=e28]
+        - img [ref=e29]
+        - img [ref=e30]
+      - generic [ref=e31]: 180 / 100 / 60
+  - heading "Home screen simulation" [level=2] [ref=e32]
+  - generic [ref=e33]:
+    - img [ref=e34]
+    - img [ref=e35]
+    - img [ref=e36]
+    - img [ref=e37]

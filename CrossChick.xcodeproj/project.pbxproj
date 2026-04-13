@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20001 /* CrossChickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20001; };
+		A20002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20002; };
+		A20003 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20003; };
+		A20004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20004; };
+		A20005 /* MascotCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20005; };
+		A20006 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20006; };
+		A20007 /* StepStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20007; };
+		A20008 /* CCTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20008; };
+		A20009 /* WebGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20009; };
+		A20010 /* WebGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20010; };
+		A20011 /* WebGateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20011; };
+		A20012 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20012; };
+		A20013 /* FacadeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20013; };
+		A20014 /* RoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20014; };
+		A20015 /* RoadCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20015; };
+		A20016 /* CoinBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20016; };
+		A20017 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20017; };
+		A20018 /* DayBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20018; };
+		A20019 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20019; };
+		A20020 /* MascotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20020; };
+		A20021 /* MascotPreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20021; };
+		A20022 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20022; };
+		A20023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20023; };
+		A20024 /* ChallengeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20025; };
+		A20025 /* ChallengesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20026; };
+		A20026 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20027; };
+		A20027 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20028; };
+		A20028 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20029; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20001 /* CrossChickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossChickApp.swift; sourceTree = "<group>"; };
+		B20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20003 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B20004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B20005 /* MascotCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotCatalog.swift; sourceTree = "<group>"; };
+		B20006 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		B20007 /* StepStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepStore.swift; sourceTree = "<group>"; };
+		B20008 /* CCTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTheme.swift; sourceTree = "<group>"; };
+		B20009 /* WebGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGate.swift; sourceTree = "<group>"; };
+		B20010 /* WebGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateView.swift; sourceTree = "<group>"; };
+		B20011 /* WebGateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateConfig.swift; sourceTree = "<group>"; };
+		B20012 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		B20013 /* FacadeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeTabView.swift; sourceTree = "<group>"; };
+		B20014 /* RoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadView.swift; sourceTree = "<group>"; };
+		B20015 /* RoadCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadCanvasView.swift; sourceTree = "<group>"; };
+		B20016 /* CoinBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBurstView.swift; sourceTree = "<group>"; };
+		B20017 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B20018 /* DayBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayBarChart.swift; sourceTree = "<group>"; };
+		B20019 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B20020 /* MascotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotCard.swift; sourceTree = "<group>"; };
+		B20021 /* MascotPreviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotPreviewSheet.swift; sourceTree = "<group>"; };
+		B20022 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B20023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20024 /* CrossChick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrossChick.entitlements; sourceTree = "<group>"; };
+		B20025 /* ChallengeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeManager.swift; sourceTree = "<group>"; };
+		B20026 /* ChallengesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesBar.swift; sourceTree = "<group>"; };
+		B20027 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B20028 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B20029 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C20001 /* CrossChick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossChick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20000 = {
+			isa = PBXGroup;
+			children = (
+				E20001 /* CrossChick */,
+				E20099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20001 /* CrossChick */ = {
+			isa = PBXGroup;
+			children = (
+				B20001 /* CrossChickApp.swift */,
+				B20002 /* ContentView.swift */,
+				B20024 /* CrossChick.entitlements */,
+				E20002 /* Config */,
+				E20003 /* Data */,
+				E20004 /* Theme */,
+				E20005 /* WebGate */,
+				E20006 /* Facade */,
+				B20023 /* Assets.xcassets */,
+			);
+			path = CrossChick;
+			sourceTree = "<group>";
+		};
+		E20002 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B20003 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E20003 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B20004 /* Models.swift */,
+				B20005 /* MascotCatalog.swift */,
+				B20006 /* HealthKitService.swift */,
+				B20007 /* StepStore.swift */,
+			B20025 /* ChallengeManager.swift */,
+			B20027 /* NotificationService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E20004 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B20008 /* CCTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E20005 /* WebGate */ = {
+			isa = PBXGroup;
+			children = (
+				B20009 /* WebGate.swift */,
+				B20010 /* WebGateView.swift */,
+				B20011 /* WebGateConfig.swift */,
+				B20012 /* RemoteConfigService.swift */,
+			);
+			path = WebGate;
+			sourceTree = "<group>";
+		};
+		E20006 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				B20013 /* FacadeTabView.swift */,
+				B20029 /* OnboardingView.swift */,
+				E20007 /* Road */,
+				E20008 /* Stats */,
+				E20009 /* Shop */,
+				E20010 /* Settings */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		E20007 /* Road */ = {
+			isa = PBXGroup;
+			children = (
+				B20014 /* RoadView.swift */,
+				B20015 /* RoadCanvasView.swift */,
+				B20016 /* CoinBurstView.swift */,
+			B20026 /* ChallengesBar.swift */,
+			);
+			path = Road;
+			sourceTree = "<group>";
+		};
+		E20008 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				B20017 /* StatsView.swift */,
+				B20018 /* DayBarChart.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		E20009 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B20019 /* ShopView.swift */,
+				B20020 /* MascotCard.swift */,
+				B20021 /* MascotPreviewSheet.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		E20010 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B20022 /* SettingsView.swift */,
+			B20028 /* ProfileView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E20099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20001 /* CrossChick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20001 /* CrossChick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G20003;
+			buildPhases = (
+				F20002 /* Sources */,
+				D20001 /* Frameworks */,
+				F20003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossChick;
+			productName = CrossChick;
+			productReference = C20001 /* CrossChick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P20001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F20001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = G20001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20000;
+			productRefGroup = E20099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20001 /* CrossChick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20001 /* CrossChickApp.swift in Sources */,
+				A20002 /* ContentView.swift in Sources */,
+				A20003 /* AppConfig.swift in Sources */,
+				A20004 /* Models.swift in Sources */,
+				A20005 /* MascotCatalog.swift in Sources */,
+				A20006 /* HealthKitService.swift in Sources */,
+				A20007 /* StepStore.swift in Sources */,
+				A20008 /* CCTheme.swift in Sources */,
+				A20009 /* WebGate.swift in Sources */,
+				A20010 /* WebGateView.swift in Sources */,
+				A20011 /* WebGateConfig.swift in Sources */,
+				A20012 /* RemoteConfigService.swift in Sources */,
+				A20013 /* FacadeTabView.swift in Sources */,
+				A20014 /* RoadView.swift in Sources */,
+				A20015 /* RoadCanvasView.swift in Sources */,
+				A20016 /* CoinBurstView.swift in Sources */,
+				A20017 /* StatsView.swift in Sources */,
+				A20018 /* DayBarChart.swift in Sources */,
+				A20019 /* ShopView.swift in Sources */,
+				A20020 /* MascotCard.swift in Sources */,
+				A20021 /* MascotPreviewSheet.swift in Sources */,
+				A20022 /* SettingsView.swift in Sources */,
+				A20024 /* ChallengeManager.swift in Sources */,
+				A20025 /* ChallengesBar.swift in Sources */,
+				A20026 /* NotificationService.swift in Sources */,
+				A20027 /* ProfileView.swift in Sources */,
+				A20028 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G20002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G20004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G20005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrossChick/CrossChick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoadStep;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RoadStep reads your step count from Health to track your daily walking progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RoadStep saves your walking workouts to Health when you complete milestones.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "RoadStep uses motion data to count your steps and move your character across the road.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.crosschick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G20006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CrossChick/CrossChick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoadStep;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "RoadStep reads your step count from Health to track your daily walking progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "RoadStep saves your walking workouts to Health when you complete milestones.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "RoadStep uses motion data to count your steps and move your character across the road.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.crosschick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G20001 /* Build configuration list for PBXProject "CrossChick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G20002 /* Debug */,
+				G20004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G20003 /* Build configuration list for PBXNativeTarget "CrossChick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G20005 /* Debug */,
+				G20006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P20001 /* Project object */;
+}
